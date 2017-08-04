@@ -11,7 +11,7 @@
 use File::Find qw/find/;
 use List::Util;
 use feature qw/say/;
-use 5.14;
+use 5.014;
 
 my ($ROOT, $REGEXT) = @ARGV;
 
